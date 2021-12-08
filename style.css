@@ -6,7 +6,6 @@ body {
 header {
   height: 100vh;
   background: url(assets/hero-bg.png) no-repeat center center / cover;
-  padding-top: 40px;
 }
 
 .nav-menu {
@@ -58,13 +57,17 @@ header {
 /* end of navbar */
 
 /* banner */
+.header__font {
+  font-size: 90px;
+  line-height: 97.5%;
+}
 
 .banner {
   position: absolute;
   top: 50%;
   left: 20%;
   transform: translate(-50%, -50%);
-  width: 400px;
+  width: 300px;
 }
 
 .banner-heading {
@@ -204,7 +207,7 @@ header {
 .cta__banner {
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: 5%;
   transform: translate(-50%, -50%);
   width: 483px;
 }
@@ -249,7 +252,7 @@ header {
 
 .cta__secondary-container {
   position: absolute;
-  top: 20%;
+  top: 35%;
   right: 10%;
   width: 336px;
 }
@@ -258,6 +261,13 @@ footer {
   height: 300px;
 }
 
+.footer__text {
+  text-shadow: 0px 4px 5px rgba(255, 255, 255, 0.15);
+  color: #8c8c8c;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
 /* contact */
 
 .submit__button {
